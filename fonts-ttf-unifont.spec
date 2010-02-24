@@ -1,7 +1,7 @@
 %define pkgname		unifont
 %define name		fonts-ttf-%{pkgname}
 %define version		5.1.20080907
-%define release		%mkrel 1
+%define release		%mkrel 2
 
 Summary:		GNU Unifont glyphs
 Name:			%{name}
@@ -40,14 +40,6 @@ ln -s ../../..%_datadir/fonts/TTF/%{pkgname} \
 
 %clean
 %__rm -rf %{buildroot}
-
-%post
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-
-%postun
-if [ "$1" = "0" ]; then
-  [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-fi
 
 %files
 %defattr(-,root,root)
