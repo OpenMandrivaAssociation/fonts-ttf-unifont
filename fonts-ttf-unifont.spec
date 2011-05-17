@@ -13,6 +13,7 @@ Group:			System/Fonts/True type
 Url:			http://unifoundry.com/unifont.html
 BuildRoot:		%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:		noarch
+BuildRequires: fontconfig
 BuildRequires:		freetype-tools
 
 %description
