@@ -1,7 +1,7 @@
 %define pkgname		unifont
 %define name		fonts-ttf-%{pkgname}
 %define version		5.1.20080907
-%define release		%mkrel 3
+%define release		%mkrel 4
 
 Summary:		GNU Unifont glyphs
 Name:			%{name}
