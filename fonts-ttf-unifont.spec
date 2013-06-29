@@ -1,3 +1,5 @@
+%define pkgname	unifont
+
 Summary:	GNU Unifont glyphs
 Name:		fonts-ttf-%{pkgname}
 Version:	5.1.20080907
