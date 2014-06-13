@@ -3,7 +3,7 @@
 Summary:	GNU Unifont glyphs
 Name:		fonts-ttf-%{pkgname}
 Version:	5.1.20080907
-Release:	8
+Release:	9
 License:	GPLv2
 Group:		System/Fonts/True type
 Url:		http://unifoundry.com/unifont.html
